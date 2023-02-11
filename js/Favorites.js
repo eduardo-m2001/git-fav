@@ -75,7 +75,7 @@ export class FavoritesView extends Favorites {
         }
     }
 
-    update() {
+    update() {  // função para atualizar a cada ação
         this.emptyState()
 
         this.removeAllTr()
