@@ -37,7 +37,7 @@ export class Favorites {
         }
     }
 
-    delete(user) {
+    delete(user) {   // function delet
         const filteredEntries = this.entries
             .filter(entry => entry.login !== user.login)
 
